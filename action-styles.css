@@ -1,0 +1,15 @@
+body{
+	
+	background-image: url("images/bg-intro-desktop.png");
+	background-color: hsl(0, 100%, 74%);
+	color: #fff;
+	font-family: 'Poppins', serif;
+	text-align: center;
+	font-size: 3rem;
+	padding: 15% 15%;
+}
+@media only screen and (max-width: 600px){
+	body{
+		background-image: url("images/bg-intro-mobile.png");
+	}
+}

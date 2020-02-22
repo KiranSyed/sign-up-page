@@ -1,0 +1,80 @@
+body {
+	background-image: url("images/bg-intro-desktop.png");
+	background-color: hsl(0, 100%, 74%);
+	color: #fff;
+	font-family: 'Poppins', serif;
+}
+.container-fluid{
+margin: 7% 0;
+padding: 0 10%;
+}
+.intro{
+	font-size: 1.2rem;
+	line-height: 1.8;
+	margin: 10% auto;
+}
+.intro h1{
+	margin-bottom: 10%;
+	font-size: 3rem;
+	font-weight: 900;
+}
+.my-form{
+	padding: 10% 10% 3%;
+	background-color: #fff;
+	margin: 5% auto;
+	border-radius: 2%;
+	color: hsl(246, 25%, 77%);
+	text-align: center;
+}
+.my-input{
+	color: hsl(249, 10%, 26%);
+}
+.free-trail{
+	background-color: hsl(154, 59%, 51%);
+	color: #fff;
+}
+.free-trail:hover{
+	background-color: hsl(154, 70%, 51%);
+	color: #fff;
+}
+.free-7days{
+	background-color: hsl(248, 32%, 49%);
+	color: #fff;
+}
+.free-7days:hover{
+	background-color: hsl(248, 60%, 49%);
+	color: #fff;
+}
+.services{
+	color:  hsl(0, 100%, 74%);
+}
+.services:hover{
+	color:  red;
+}
+.attribution { 
+	font-size: 11px; 
+	text-align: center;
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+.hidden{
+	display: none;
+}
+.error::placeholder{
+    background-image: url("images/icon-error.svg"); 
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.red{
+	color: red;
+	width: 100%;
+	text-align: right;
+}
+@media only screen and (max-width: 600px){
+	body{
+		text-align: center;
+		background-image: url("images/bg-intro-mobile.png");
+	}
+}

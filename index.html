@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+ 
+  <title>Intro component with sign up form</title>
+
+</head>
+<body>
+  <div class="container-fluid">
+   <div class="row align-items-center">
+        <div class="intro col-lg-6">
+          <h1>Learn to code by watching others</h1>
+
+          <p>
+            See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+            but understanding how developers think is invaluable. 
+          </p>
+        </div>
+        <div  class="col-lg-6">
+          <form action="action_page.html" method="post">
+            <button  type="submit" class="btn free-7days btn-lg btn-block" value="submit"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
+            <div class="my-form">
+                <div class="form-group row">
+                  <input class="my-input form-control-lg col-12" type="text" id="fname" name ="firstName" placeholder="First Name" autofocus> 
+                  <label class="red hidden" for="fname" >First Name can not be empty</label>
+                </div>
+                <div class="form-group row">
+                  <input class="my-input form-control-lg col-12" type="text" id="lname" name ="lastName" placeholder="Last Name"> 
+                  <label class="red hidden" for="lname">Last Name can not be empty</label>
+                </div>
+                <div class="form-group row">
+                  <input class="my-input form-control-lg col-12" type="email" id="mail" name ="eMail" placeholder="Email Address"> 
+                  <label class="red hidden" for="mail">email can not be empty</label>
+                </div>
+                <div class="form-group row">
+                  <input class="my-input form-control-lg col-12" type="password" id="pass" name ="passWord" placeholder="Password" minlength="8">
+                  <label class="red hidden" for="pass">password can not be empty</label>
+                </div>
+                <div class="form-group row">
+                  <button type="submit" class="btn free-trail btn-lg btn-block" value="submit">Claim your free trial </button> 
+                </div>
+                <p>
+                   By clicking the button, you are agreeing to our <span class="services">Terms and Services</span>
+                </p>
+          </div>
+          </form>
+        </div>
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Kiran Syed</a>.
+    </p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
